@@ -1,0 +1,19 @@
+.EightBall {
+    box-shadow: 10px 10px 15px #678;
+    margin: 75px 500px;
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 105px;
+  }
+
+  /* .ResetButton {
+    margin-top: 300px;
+  } */
