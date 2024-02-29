@@ -1,9 +1,9 @@
 .EightBall {
-    box-shadow: 10px 10px 15px #678;
-    margin: 75px 500px;
+    box-shadow: 10px 10px 25px rgb(73, 79, 85);
+    margin: 75px auto;
     border-radius: 50%;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,9 +11,33 @@
     padding: 10px;
     text-align: center;
     cursor: pointer;
-    font-size: 105px;
+    font-size: 75px;
   }
 
-  /* .ResetButton {
-    margin-top: 300px;
-  } */
+  .ResetButton {
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px; 
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  body {
+    background-color: rgb(164, 199, 199);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
