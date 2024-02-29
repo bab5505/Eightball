@@ -17,15 +17,20 @@ const EightBall = (props) => {
       return arr[randomIdx];
     };
   
-    // const handleReset = () => {
-    //   setMsg("Think of a Question.");
-    //   setColor("black");
-    // };
+    const handleReset = () => {
+      setMsg("8");
+      setColor("black");
+      window.location.reload(); 
+    };
   
     return (
+      <div>
+        {/* <h1>What is your question?</h1>
+        <h2>Click on the 8 ball</h2> */}
       <div className="EightBall" onClick={handleClick} style={{ backgroundColor: color }}>
         <b>{msg}</b>
-        {/* <button className="ResetButton" onClick={handleReset}>Reset</button> */}
+        <button className="ResetButton" onClick={handleReset}>Reset</button>
+      </div>
       </div>
     );
 }
